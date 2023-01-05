@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A2CBE67294AB00E007C77E7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CBE66294AB00E007C77E7 /* Constants.swift */; };
 		3A3A7E6C2941587B0060680B /* FlockingBirdsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E6B2941587B0060680B /* FlockingBirdsApp.swift */; };
 		3A3A7E6E2941587B0060680B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E6D2941587B0060680B /* ContentView.swift */; };
 		3A3A7E702941587B0060680B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A3A7E6F2941587B0060680B /* Assets.xcassets */; };
@@ -14,6 +15,15 @@
 		3A3A7E7D2941587C0060680B /* FlockingBirdsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E7C2941587C0060680B /* FlockingBirdsTests.swift */; };
 		3A3A7E872941587C0060680B /* FlockingBirdsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E862941587C0060680B /* FlockingBirdsUITests.swift */; };
 		3A3A7E892941587C0060680B /* FlockingBirdsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E882941587C0060680B /* FlockingBirdsUITestsLaunchTests.swift */; };
+		3A3A7E9629415BA90060680B /* Bird.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E9529415BA90060680B /* Bird.swift */; };
+		3A3A7E9829415BCB0060680B /* SimulationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E9729415BCB0060680B /* SimulationController.swift */; };
+		3A3A7E9C2942A6350060680B /* Behaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E9B2942A6350060680B /* Behaviors.swift */; };
+		3A3A7E9E2942D9000060680B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3A7E9D2942D9000060680B /* Settings.swift */; };
+		3A5E11C729441F84007C8AE3 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E11C629441F84007C8AE3 /* BottomBar.swift */; };
+		3A5E11C929442CFC007C8AE3 /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E11C829442CFC007C8AE3 /* Trail.swift */; };
+		3A5E11CE2944F143007C8AE3 /* BehaviourModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E11CD2944F143007C8AE3 /* BehaviourModifier.swift */; };
+		3A5E11D02944FBF2007C8AE3 /* BehaviourValueDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5E11CF2944FBF2007C8AE3 /* BehaviourValueDisplay.swift */; };
+		3AADAD062945A74F00A361C6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AADAD052945A74F00A361C6 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A2CBE66294AB00E007C77E7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3A3A7E682941587B0060680B /* FlockingBirds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlockingBirds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3A7E6B2941587B0060680B /* FlockingBirdsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockingBirdsApp.swift; sourceTree = "<group>"; };
 		3A3A7E6D2941587B0060680B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +55,15 @@
 		3A3A7E822941587C0060680B /* FlockingBirdsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlockingBirdsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A3A7E862941587C0060680B /* FlockingBirdsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockingBirdsUITests.swift; sourceTree = "<group>"; };
 		3A3A7E882941587C0060680B /* FlockingBirdsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlockingBirdsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3A3A7E9529415BA90060680B /* Bird.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bird.swift; sourceTree = "<group>"; };
+		3A3A7E9729415BCB0060680B /* SimulationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulationController.swift; sourceTree = "<group>"; };
+		3A3A7E9B2942A6350060680B /* Behaviors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Behaviors.swift; sourceTree = "<group>"; };
+		3A3A7E9D2942D9000060680B /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		3A5E11C629441F84007C8AE3 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
+		3A5E11C829442CFC007C8AE3 /* Trail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		3A5E11CD2944F143007C8AE3 /* BehaviourModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviourModifier.swift; sourceTree = "<group>"; };
+		3A5E11CF2944FBF2007C8AE3 /* BehaviourValueDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BehaviourValueDisplay.swift; sourceTree = "<group>"; };
+		3AADAD052945A74F00A361C6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +114,18 @@
 		3A3A7E6A2941587B0060680B /* FlockingBirds */ = {
 			isa = PBXGroup;
 			children = (
+				3A2CBE66294AB00E007C77E7 /* Constants.swift */,
+				3A5E11CA2944F0DC007C8AE3 /* UIutil */,
 				3A3A7E6B2941587B0060680B /* FlockingBirdsApp.swift */,
 				3A3A7E6D2941587B0060680B /* ContentView.swift */,
 				3A3A7E6F2941587B0060680B /* Assets.xcassets */,
 				3A3A7E712941587B0060680B /* Preview Content */,
+				3A3A7E9529415BA90060680B /* Bird.swift */,
+				3A3A7E9729415BCB0060680B /* SimulationController.swift */,
+				3A3A7E9B2942A6350060680B /* Behaviors.swift */,
+				3A3A7E9D2942D9000060680B /* Settings.swift */,
+				3A5E11C629441F84007C8AE3 /* BottomBar.swift */,
+				3A5E11C829442CFC007C8AE3 /* Trail.swift */,
 			);
 			path = FlockingBirds;
 			sourceTree = "<group>";
@@ -127,6 +155,16 @@
 			path = FlockingBirdsUITests;
 			sourceTree = "<group>";
 		};
+		3A5E11CA2944F0DC007C8AE3 /* UIutil */ = {
+			isa = PBXGroup;
+			children = (
+				3A5E11CD2944F143007C8AE3 /* BehaviourModifier.swift */,
+				3A5E11CF2944FBF2007C8AE3 /* BehaviourValueDisplay.swift */,
+				3AADAD052945A74F00A361C6 /* SwiftUIView.swift */,
+			);
+			path = UIutil;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +181,8 @@
 			dependencies = (
 			);
 			name = FlockingBirds;
+			packageProductDependencies = (
+			);
 			productName = FlockingBirds;
 			productReference = 3A3A7E682941587B0060680B /* FlockingBirds.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +255,9 @@
 				Base,
 			);
 			mainGroup = 3A3A7E5F2941587B0060680B;
+			packageReferences = (
+				3A2CBE63294A96E3007C77E7 /* XCRemoteSwiftPackageReference "KDTree" */,
+			);
 			productRefGroup = 3A3A7E692941587B0060680B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -258,7 +301,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3A7E6E2941587B0060680B /* ContentView.swift in Sources */,
+				3AADAD062945A74F00A361C6 /* SwiftUIView.swift in Sources */,
+				3A5E11CE2944F143007C8AE3 /* BehaviourModifier.swift in Sources */,
+				3A5E11D02944FBF2007C8AE3 /* BehaviourValueDisplay.swift in Sources */,
+				3A3A7E9629415BA90060680B /* Bird.swift in Sources */,
+				3A3A7E9829415BCB0060680B /* SimulationController.swift in Sources */,
+				3A2CBE67294AB00E007C77E7 /* Constants.swift in Sources */,
+				3A5E11C929442CFC007C8AE3 /* Trail.swift in Sources */,
+				3A5E11C729441F84007C8AE3 /* BottomBar.swift in Sources */,
+				3A3A7E9E2942D9000060680B /* Settings.swift in Sources */,
 				3A3A7E6C2941587B0060680B /* FlockingBirdsApp.swift in Sources */,
+				3A3A7E9C2942A6350060680B /* Behaviors.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +401,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -402,6 +456,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -434,6 +489,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				Swif = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -463,6 +519,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				Swif = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -583,6 +640,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A2CBE63294A96E3007C77E7 /* XCRemoteSwiftPackageReference "KDTree" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Bersaelor/KDTree";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = 3A3A7E602941587B0060680B /* Project object */;
 }
